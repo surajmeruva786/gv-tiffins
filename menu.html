@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - GV Tiffins & Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://placehold.co/100x60?text=GV" alt="GV Tiffins Logo" class="logo-img">
+          <div>
+            <h1>GV Tiffins</h1>
+            <p>Since 1985</p>
+          </div>
+        </a>
+      </div>
+      
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="menu.html" class="nav-link active">Menu</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    
+    <!-- Decorative bottom border -->
+    <div class="vintage-border"></div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Menu Hero Section -->
+    <section class="page-hero">
+      <div class="vintage-pattern"></div>
+      <div class="container">
+        <div class="page-hero-content">
+          <div class="decorative-title">
+            <span class="line"></span>
+            <span class="title-text">Traditional South Indian Cuisine</span>
+            <span class="line"></span>
+          </div>
+          <h1>Our Menu</h1>
+          <p>Explore our wide range of authentic South Indian dishes made with traditional recipes and fresh ingredients</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Filter Section -->
+    <section class="menu-section">
+      <div class="container">
+        <div class="menu-filter">
+          <button class="filter-btn active" data-category="all">All Items</button>
+          <button class="filter-btn" data-category="breakfast">Breakfast</button>
+          <button class="filter-btn" data-category="lunch">Lunch</button>
+          <button class="filter-btn" data-category="dinner">Dinner</button>
+          <button class="filter-btn" data-category="snacks">Snacks</button>
+        </div>
+        
+        <div class="menu-pattern"></div>
+        
+        <div class="menu-list">
+          <!-- Breakfast Items -->
+          <div class="menu-group" id="breakfast">
+            <h2 class="menu-category">Breakfast <span class="menu-timing">7:00 AM - 11:00 AM</span></h2>
+            
+            <div class="menu-card" data-category="breakfast">
+              <div class="menu-card-header">
+                <h3>Idli</h3>
+                <span class="price">₹60</span>
+              </div>
+              <p class="menu-description">Steamed rice cakes served with sambar and coconut chutney</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="breakfast">
+              <div class="menu-card-header">
+                <h3>Masala Dosa</h3>
+                <span class="price">₹120</span>
+              </div>
+              <p class="menu-description">Crispy rice crepe filled with spiced potato mixture, served with sambar and chutney</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="breakfast">
+              <div class="menu-card-header">
+                <h3>Pongal</h3>
+                <span class="price">₹100</span>
+              </div>
+              <p class="menu-description">Traditional rice and lentil porridge cooked with black pepper, cumin and ghee</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="breakfast">
+              <div class="menu-card-header">
+                <h3>Vada</h3>
+                <span class="price">₹70</span>
+              </div>
+              <p class="menu-description">Savory fried lentil donuts served with sambar and coconut chutney</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="breakfast">
+              <div class="menu-card-header">
+                <h3>Upma</h3>
+                <span class="price">₹80</span>
+              </div>
+              <p class="menu-description">Savory semolina porridge cooked with vegetables and spices</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Lunch Items -->
+          <div class="menu-group" id="lunch">
+            <h2 class="menu-category">Lunch <span class="menu-timing">12:00 PM - 3:30 PM</span></h2>
+            
+            <div class="menu-card" data-category="lunch">
+              <div class="menu-card-header">
+                <h3>South Indian Thali</h3>
+                <span class="price">₹200</span>
+              </div>
+              <p class="menu-description">Complete meal with rice, variety of curries, sambar, rasam, papad, pickle and dessert</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="lunch">
+              <div class="menu-card-header">
+                <h3>Vegetable Biryani</h3>
+                <span class="price">₹160</span>
+              </div>
+              <p class="menu-description">Fragrant rice cooked with mixed vegetables, herbs and spices, served with raita</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="lunch">
+              <div class="menu-card-header">
+                <h3>Curd Rice</h3>
+                <span class="price">₹90</span>
+              </div>
+              <p class="menu-description">Rice mixed with yogurt, tempered with mustard seeds, curry leaves and garnished with pomegranate</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="lunch">
+              <div class="menu-card-header">
+                <h3>Veg Pulao</h3>
+                <span class="price">₹140</span>
+              </div>
+              <p class="menu-description">Fragrant rice cooked with mixed vegetables and mild spices, served with raita</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Dinner Items -->
+          <div class="menu-group" id="dinner">
+            <h2 class="menu-category">Dinner <span class="menu-timing">6:30 PM - 10:30 PM</span></h2>
+            
+            <div class="menu-card" data-category="dinner">
+              <div class="menu-card-header">
+                <h3>Appam with Stew</h3>
+                <span class="price">₹150</span>
+              </div>
+              <p class="menu-description">Lacy rice pancakes served with vegetable stew cooked in coconut milk</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="dinner">
+              <div class="menu-card-header">
+                <h3>Parotta with Kurma</h3>
+                <span class="price">₹130</span>
+              </div>
+              <p class="menu-description">Layered flatbread served with flavorful mixed vegetable curry</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="dinner">
+              <div class="menu-card-header">
+                <h3>Dosa Varieties Platter</h3>
+                <span class="price">₹220</span>
+              </div>
+              <p class="menu-description">Assortment of 3 different dosa varieties served with sambar and chutneys</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="dinner">
+              <div class="menu-card-header">
+                <h3>Bisi Bele Bath</h3>
+                <span class="price">₹130</span>
+              </div>
+              <p class="menu-description">Spicy rice and lentil dish cooked with vegetables and tamarind</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Snacks Items -->
+          <div class="menu-group" id="snacks">
+            <h2 class="menu-category">Snacks <span class="menu-timing">All Day</span></h2>
+            
+            <div class="menu-card" data-category="snacks">
+              <div class="menu-card-header">
+                <h3>Medu Vada</h3>
+                <span class="price">₹70</span>
+              </div>
+              <p class="menu-description">Crispy savory donuts made from urad dal batter</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="snacks">
+              <div class="menu-card-header">
+                <h3>Mysore Bonda</h3>
+                <span class="price">₹65</span>
+              </div>
+              <p class="menu-description">Deep-fried fluffy dumplings made with yogurt and flour</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="snacks">
+              <div class="menu-card-header">
+                <h3>Filter Coffee</h3>
+                <span class="price">₹40</span>
+              </div>
+              <p class="menu-description">Traditional South Indian coffee made with freshly ground coffee beans and chicory</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+            
+            <div class="menu-card" data-category="snacks">
+              <div class="menu-card-header">
+                <h3>Pakoda Platter</h3>
+                <span class="price">₹90</span>
+              </div>
+              <p class="menu-description">Assortment of vegetable fritters served with mint chutney</p>
+              <div class="menu-tags">
+                <span class="tag vegetarian">Vegetarian</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>GV Tiffins & Restaurant</h3>
+            <p>Serving authentic South Indian cuisine since 1985. We are committed to preserving traditional flavors while embracing modern, health-conscious cooking techniques.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> 123 Temple Road, Gandhi Nagar, Bangalore</li>
+              <li><i class="fas fa-phone"></i> +91 80 2345 6789</li>
+              <li><i class="fas fa-envelope"></i> info@guruvayoortiffins.com</li>
+            </ul>
+          </div>
+          
+          <div class="footer-hours">
+            <h3>Business Hours</h3>
+            <ul>
+              <li>Monday - Friday: 7:00 AM - 10:30 PM</li>
+              <li>Saturday - Sunday: 7:00 AM - 11:00 PM</li>
+              <li class="special">Lunch Special: 12:00 PM - 3:00 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Designed with <i class="fas fa-heart"></i> | Powered by traditional values and modern technology</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

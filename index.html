@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GV Tiffins & Restaurant - Authentic South Indian Food</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://placehold.co/100x60?text=GV" alt="GV Tiffins Logo" class="logo-img">
+          <div>
+            <h1>GV Tiffins</h1>
+            <p>Since 1985</p>
+          </div>
+        </a>
+      </div>
+      
+      <nav class="nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="menu.html" class="nav-link">Menu</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    
+    <!-- Decorative bottom border -->
+    <div class="vintage-border"></div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="vintage-pattern"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="badge">
+            <span>Traditional South Indian Food</span>
+          </div>
+          <h1>Experience Authentic Flavors from South India</h1>
+          <p>Serving Traditional and Healthy South Indian cuisine since 1985</p>
+          <div class="hero-buttons">
+            <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+            <a href="about.html" class="btn btn-secondary">Our Story</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Menu Section -->
+    <section class="featured-menu">
+      <div class="container">
+        <div class="section-header">
+          <div class="decorative-title">
+            <span class="line"></span>
+            <span class="title-text">Our Specialties</span>
+            <span class="line"></span>
+          </div>
+          <h2>Signature Dishes</h2>
+          <p>Enjoy our most popular and authentic South Indian delicacies</p>
+        </div>
+        
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-img">
+              <img src="https://placehold.co/300x200?text=Masala+Dosa" alt="Masala Dosa">
+            </div>
+            <div class="menu-item-content">
+              <h3>Masala Dosa</h3>
+              <p>Crispy rice crepe filled with spiced potato mixture, served with sambar and chutney</p>
+              <span class="price">₹120</span>
+            </div>
+          </div>
+          
+          <div class="menu-item">
+            <div class="menu-item-img">
+              <img src="https://placehold.co/300x200?text=Idli+Sambar" alt="Idli Sambar">
+            </div>
+            <div class="menu-item-content">
+              <h3>Idli Sambar</h3>
+              <p>Steamed rice cakes served with lentil-based vegetable stew and coconut chutney</p>
+              <span class="price">₹80</span>
+            </div>
+          </div>
+          
+          <div class="menu-item">
+            <div class="menu-item-img">
+              <img src="https://placehold.co/300x200?text=Pongal" alt="Pongal">
+            </div>
+            <div class="menu-item-content">
+              <h3>Pongal</h3>
+              <p>Traditional rice and lentil porridge cooked with black pepper, cumin and ghee</p>
+              <span class="price">₹100</span>
+            </div>
+          </div>
+          
+          <div class="menu-item">
+            <div class="menu-item-img">
+              <img src="https://placehold.co/300x200?text=Filter+Coffee" alt="Filter Coffee">
+            </div>
+            <div class="menu-item-content">
+              <h3>Filter Coffee</h3>
+              <p>Traditional South Indian coffee made with freshly ground coffee beans and chicory</p>
+              <span class="price">₹40</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="view-menu">
+          <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-preview">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <div class="decorative-title">
+              <span class="line"></span>
+              <span class="title-text">Our Story</span>
+              <span class="line"></span>
+            </div>
+            <h2>Traditional Values, Modern Dining</h2>
+            <p>Founded in 1985, GV Tiffins brings the authentic taste of South India to your table. Our recipes have been passed down through generations, preserving the traditional flavors while embracing modern, health-conscious cooking techniques.</p>
+            <p>We source the finest ingredients and prepare everything fresh daily, just like it would be in a traditional South Indian home.</p>
+            <a href="about.html" class="btn btn-secondary">Learn More About Us</a>
+          </div>
+          <div class="about-image">
+            <img src="https://placehold.co/500x300?text=Restaurant+Interior" alt="Restaurant Interior">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <div class="decorative-title">
+            <span class="line"></span>
+            <span class="title-text">What People Say</span>
+            <span class="line"></span>
+          </div>
+          <h2>Customer Testimonials</h2>
+          <p>Don't just take our word for it - here's what our customers have to say</p>
+        </div>
+        
+        <div class="testimonial-slider">
+          <div class="testimonial-slide active">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>"The most authentic South Indian food I've had outside of Chennai. The dosa was crisp, the sambar flavorful, and the chutney perfect!"</p>
+              <div class="testimonial-author">
+                <div class="author-initial">RS</div>
+                <div class="author-name">Rohit Sharma</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>"I love that they focus on healthy, traditional cooking methods. Their idlis are so soft, and the filter coffee is simply outstanding!"</p>
+              <div class="testimonial-author">
+                <div class="author-initial">AP</div>
+                <div class="author-name">Ananya Patel</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-slide">
+            <div class="testimonial-content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <p>"The vegetarian thali offers such incredible variety. Every item is delicious and reminds me of my grandmother's cooking. Highly recommended!"</p>
+              <div class="testimonial-author">
+                <div class="author-initial">VK</div>
+                <div class="author-name">Vikram Kumar</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="slider-controls">
+          <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Preview Section -->
+    <section class="contact-preview">
+      <div class="container">
+        <div class="contact-preview-content">
+          <div class="section-header">
+            <div class="decorative-title">
+              <span class="line"></span>
+              <span class="title-text">Find Us</span>
+              <span class="line"></span>
+            </div>
+            <h2>Visit Our Restaurant</h2>
+            <p>We'd love to serve you in person at our restaurant</p>
+          </div>
+          
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-text">
+                <h3>Address</h3>
+                <p>123 Temple Road, Gandhi Nagar<br>Bangalore - 560009</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info-text">
+                <h3>Phone</h3>
+                <p>+91 80 2345 6789<br>+91 98765 43210</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="info-text">
+                <h3>Hours</h3>
+                <p>Monday - Sunday: 7:00 AM - 10:30 PM</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-buttons">
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>GV Tiffins & Restaurant</h3>
+            <p>Serving authentic South Indian cuisine since 1985. We are committed to preserving traditional flavors while embracing modern, health-conscious cooking techniques.</p>
+          </div>
+          
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-contact">
+            <h3>Contact Info</h3>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i> 123 Temple Road, Gandhi Nagar, Bangalore</li>
+              <li><i class="fas fa-phone"></i> +91 80 2345 6789</li>
+              <li><i class="fas fa-envelope"></i> info@guruvayoortiffins.com</li>
+            </ul>
+          </div>
+          
+          <div class="footer-hours">
+            <h3>Business Hours</h3>
+            <ul>
+              <li>Monday - Friday: 7:00 AM - 10:30 PM</li>
+              <li>Saturday - Sunday: 7:00 AM - 11:00 PM</li>
+              <li class="special">Lunch Special: 12:00 PM - 3:00 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="container">
+        <p>Designed with <i class="fas fa-heart"></i> | Powered by traditional values and modern technology</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
